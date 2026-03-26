@@ -1,0 +1,2 @@
+Model,Dice,IoU,Precision,Recall,F1
+IU_PSeg_Ours,0.531 ± 0.235,0.395 ± 0.217,0.743 ± 0.249,0.452 ± 0.239,0.542 ± 0.233
