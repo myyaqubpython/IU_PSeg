@@ -50,7 +50,7 @@ cd IU_PSeg
 pip install -r requirements.txt
 
 
-# Datasets
+Datasets
 
 IU-PSeg was evaluated on:
 
@@ -65,7 +65,7 @@ A contrast-enhanced ultrasound lesion segmentation dataset used for additional v
 Due to clinical privacy restrictions, raw ultrasound images and annotations are not publicly released.
 
 
-# Training
+Training
 
 Configure training parameters:
 
@@ -76,14 +76,14 @@ Train IU-PSeg:
 python train/train.py \
 --config configs/default.yaml
 
-# Inference
+Inference
 
 Run inference:
 
 python inference/test.py \
 --checkpoint checkpoints/model.pth
 
-# Evaluation
+Evaluation
 
 Generate quantitative results:
 
@@ -100,7 +100,7 @@ ASD
 AUC
 Reliability analysis
 
-# Visualization
+Visualization
 
 Generate:
 
@@ -111,7 +111,7 @@ Identifiability maps
 Reliability maps
 python visualization/generate_maps.py
 
-# Pretrained Models
+Pretrained Models
 
 Pretrained weights will be released after publication.
 
